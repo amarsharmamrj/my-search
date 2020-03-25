@@ -18,5 +18,3 @@ xhr.onreadystatechange = function() {
 };
 xhr.open('GET', 'https://www.googleapis.com/customsearch/v1?key=AIzaSyDqJypb7VlDfJ9Oondi9fY4Jp-V9i7Dxt8&cx=013267777263809976506:evi0iefgyko&q=' + searchWord + '', true);
 xhr.send();
-
-localStorage.removeItem("keyword");
